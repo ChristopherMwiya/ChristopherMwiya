@@ -1,0 +1,109 @@
+body {
+    font-size: 15pt;
+    background: black;
+    color: whitesmoke;
+}
+.center {
+    text-align: center;
+}
+.user-btn {
+    border: none;
+    font-size: 30px;
+    margin-left: 10px;
+    background: transparent;
+   
+    
+}
+.user-msg {
+    flex:1;
+    height: 35px;
+}
+.wrapper {
+    background: lightseagreen;
+    padding: 5px;
+    position:fixed;
+    bottom: 0;
+    left:0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.instructions { 
+    display: flex;
+    flex-direction: column;
+    background: lightskyblue;
+    border-radius:10px;
+    padding: 20px;
+}
+.instructions li {
+    display: flex;
+    background: lightseagreen;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: bold;
+    opacity: 30%;
+
+}
+.list-container{
+    padding: 0;
+}
+.text-area {
+    background: lightgray;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    margin-top: 27px;
+    flex-direction: column;
+    display: none;
+}
+
+
+
+ .login{
+     border:none;
+     background: slateblue;
+     padding:5px;
+     position: absolute;
+     top: 5%;
+     left: 5%;
+     color:white;
+     font-weight:bold;
+     border-radius:5px;
+ }
+ .instructions-btn {
+     border:none;
+     background: slateblue;
+     padding:5px;
+     position: absolute;
+     top: 5%;
+     right: 5%;
+     color:white;
+     font-weight:bold;
+     border-radius:5px;
+ }
+ .login-area {
+     background:white;
+     padding: 30px;
+     position: fixed;
+     z-index: 100;
+     top: 20%;
+     left: 20%;
+     border-radius: 10px;
+    display: none;
+     
+ }
+ .submit {
+     border:none;
+     background: slateblue;
+     padding:5px;
+     color:white;
+     font-weight:bold;
+     border-radius:5px;
+ }

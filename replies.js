@@ -1,0 +1,1 @@
+let replies = ["How to do that i dont know search on google","When it comes to that i dont know why they do that!","what that is i dont know","History of that is way beyond my thinking capacity 🎓"]

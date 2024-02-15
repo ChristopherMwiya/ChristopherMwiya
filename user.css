@@ -1,0 +1,30 @@
+.msg-container,.msg-bot-container {
+    background: darkslategray;
+    padding:10px;
+    color: wheat;
+    margin: 10px;
+    border-radius: 10px;
+    border: 2px solid lime;
+    display: flex;
+    flex-direction: column;
+}
+.user-name {
+    color: dimgray;
+    font-weight: bold;
+}
+.user-message{
+    
+}
+.chat-message {
+    color:white;
+}
+.msg-bot-container {
+    background: royalblue;
+    padding:10px;
+    color: white;
+    margin: 10px;
+    border-radius: 10px;
+    border: 2px solid lightseagreen;
+    display: flex;
+    flex-direction: column;
+}
